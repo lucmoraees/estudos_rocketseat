@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body header ul {
+    margin: 30px 20px;
+    display: block;
+}
+
+body header ul li {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid rgb(4, 175, 187);
+    margin-left: 0px;
+    display: inline;
+}
+
+main h1{
+    text-align: center;
+    vertical-align: middle;
+}
+
+main div {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+main section{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    display: block;
+}
+
+main section h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+main section div {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    display: block;
+}
+
+main section div img {
+    width: 100px;
+    height: 150px;
+    padding: 0px;
+    margin: auto;
+    display: block;
+}
+
+main section div p {
+    height: 50%;
+    position: relative;
+    text-align: center;
+}
+
+div#botao {
+    text-align: center;
+    vertical-align: middle;
+}
+
+button#exemplos {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 3px solid rgb(117, 244, 178);
+    margin: 10px 140px; 
+}
+
+.border_blue {
+    border: 3px solid rgb(7, 35, 254);
+}
+
+.border_orange {
+    border: 3px solid rgb(247, 118, 5);
+}
+
+.border_yellow {
+    border: 3px solid rgb(255, 204, 1);
+}

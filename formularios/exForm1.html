@@ -1,0 +1,49 @@
+<form action="" method="POST" enctype="multipart/form-data">
+    <fieldset style="width: 100px;">
+        <legend>CONTATO</legend>
+        <div>
+            <label for="nome"> Nome: </label> <br>
+                <input
+                    id="nome"
+                    name="nome" 
+                    type="text"
+                    placeholder="Digite seu nome completo"
+                    size="25"
+                    maxlength="20"
+                    required
+                >
+        </div> <br> 
+
+        <div>
+            <label for="email"> Email: </label> <br>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Digite seu Email"
+                    size="25"
+                    pattern="[a-z0-9.]+@[a-z0-9]+\.com+\"
+                    title="O email deve conter @, .com e o .br é opcional"
+                    required
+                >
+        </div> <br> 
+
+        <div>
+            <label for="menssagem"> Menssagem: </label> <br>
+                <textarea
+                    id="menssagem"
+                    name="menssagem"
+                    placeholder="Digite sua menssagem"
+                    rows="5"
+                    cols="30"
+                    maxlength="150"
+                    title="São permitidos 159 caracteres"
+                    wrap="hard"
+                ></textarea>
+        </div> <br> 
+
+        <div>
+            <button type="submit"> Enviar </button>
+        </div>
+    </fieldset>
+</form>
